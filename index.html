@@ -114,9 +114,8 @@
         ar-modes="quick-look" → iOS'ta native Quick Look açar
         ios-src → .usdz dosyası (iOS için gerekli format)
     -->
-    <model-viewer src="villa.glb" ios-src="villa.usdz" poster="https://modelviewer.dev/assets/poster-astronaut.png"
-        alt="3D Villa Modeli" shadow-intensity="1" camera-controls touch-action="pan-y" auto-rotate ar
-        ar-modes="webxr scene-viewer quick-look" ar-scale="auto">
+    <model-viewer src="villa.usdz" ios-src="villa.usdz" alt="3D Villa Modeli" shadow-intensity="1" camera-controls
+        touch-action="pan-y" auto-rotate ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto">
         <!-- Özel AR Butonu -->
         <button slot="ar-button" class="ar-button">
             <svg class="ar-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
